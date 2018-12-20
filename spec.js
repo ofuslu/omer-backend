@@ -1,3 +1,5 @@
+// I made changes - Amy
+
 var pgp = require('pg-promise')(/*options*/);
 var cn = {
     host:'localhost',
