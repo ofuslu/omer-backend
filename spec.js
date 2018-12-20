@@ -6,7 +6,7 @@ var cn = {
     user: 'postgres',
     password:'abc'
 };
-
+//eric commit this file
 var db = pgp(cn);
 
 var arr = [];
