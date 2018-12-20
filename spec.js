@@ -20,3 +20,5 @@ WHERE title LIKE 'N%';`)
     }).then(() => {
         console.log(arr);
     });
+
+console.log("hello");
