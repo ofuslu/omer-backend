@@ -4,5 +4,8 @@ exports.config ={
     specs:['dbtest.js'],
     jasmineNodeOpts:{
        defaultTimeoutInterval:50000
+
    }
+
+   //Minor changes from Kanat
  }
