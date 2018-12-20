@@ -6,6 +6,7 @@ var cn = {
     user: 'postgres',
     password:'abc'
 };
+//CHANGING PER MANAGER REQUEST
 //SAMS COMMENT ON THIS SPEC
 var db = pgp(cn);
 
