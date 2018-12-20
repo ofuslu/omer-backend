@@ -17,7 +17,7 @@ describe('Amazon Database Testing',function(){
  
         it("should get the film names from database and seach in amazon.com",function(){
             browser.waitForAngularEnabled(false);
-            browser.get("https://www.amazon.com");
+            browser.get("https://www.amazon.com");//navigates to website
  
  
             db.any(`SELECT title FROM film WHERE title LIKE 'O%';`)
@@ -44,4 +44,4 @@ describe('Amazon Database Testing',function(){
  
  
         })//end of it
- })//end of describe
+ })
