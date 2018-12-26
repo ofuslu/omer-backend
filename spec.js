@@ -6,6 +6,7 @@ var cn = {
     user: 'postgres',
     password:'abc'
 };
+//Aigerim's comment on this file. 
 
 var db = pgp(cn);
 
