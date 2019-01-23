@@ -7,7 +7,9 @@ var cn = {
     password:'abc'
 };
 //Eric's comment on this file
-var db = pgp(cn);
+//jhajha
+var db = pgp(cn); //;asdl
+//asjd
 
 var arr = [];
 db.any(`SELECT title
