@@ -7,9 +7,12 @@ var cn = {
     password:'abc'
 };
 //Eric's comment on this file
+
 //jhajha
-var db = pgp(cn); //;asdl
 //asjd
+
+var db = pgp(cn) hello;
+
 
 var arr = [];
 db.any(`SELECT title
@@ -22,3 +25,4 @@ WHERE title LIKE 'N%';`)
     }).then(() => {
         console.log(arr);
     });
+//changing this file first time
