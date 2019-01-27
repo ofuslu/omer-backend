@@ -6,8 +6,10 @@ var cn = {
     user: 'postgres',
     password:'abc'
 };
-//Eric's comment on this file
-var db = pgp(cn) hello;
+
+
+var db = pgp(cn);
+ 
 
 var arr = [];
 db.any(`SELECT title

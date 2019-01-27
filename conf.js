@@ -1,5 +1,5 @@
 exports.config ={
-    framework:'jasmine',
+    framework:'jasmine', // deneme
     directConnect:true,
     specs:['dbtest.js'],
     jasmineNodeOpts:{
