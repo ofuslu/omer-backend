@@ -7,8 +7,10 @@ var cn = {
     password:'abc'
 };
 
+
 var db = pgp(cn);
-// mustafa adding 
+ 
+
 var arr = [];
 db.any(`SELECT title
 FROM film
@@ -20,3 +22,4 @@ WHERE title LIKE 'N%';`)
     }).then(() => {
         console.log(arr);
     });
+//changing this file first time
